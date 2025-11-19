@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="dawn/dawn.vcxproj" />
+  <Project Path="dawn/dawn.vcxproj" Id="4e0aad0b-c33e-40b2-b0c2-593add9c3ceb" />
 </Solution>

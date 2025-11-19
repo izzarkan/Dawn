@@ -23,6 +23,9 @@ void menu() {
 }
 
 int main() {
+	Settings gameSettings;
+	loadSettings(gameSettings);
+
 	//	Variables
 	int userAns;
 	char running = 'y';
@@ -47,7 +50,7 @@ int main() {
 			system("pause");
 			break;
 		case 2:
-			openSettings();
+			settingsMenu(gameSettings);
 			system("pause");
 			break;
 		case 3:
